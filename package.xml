@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>fake_cartesian_state_sim</name>
+  <version>0.0.1</version>
+  <description>A simple ROS node that gets a command velocity and publishes a cartesian_state_msgs/PoseTwist state</description>
+
+  <maintainer email="gstavrinos@iit.demokritos.gr">George Stavrinos</maintainer>
+
+
+  <license>BSD-3</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>tf</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>cartesian_state_msgs</exec_depend>
+
+  <export>
+
+  </export>
+</package>
